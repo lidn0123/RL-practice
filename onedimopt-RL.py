@@ -37,7 +37,7 @@ def lp_prob():
     prob.solve()
 
     print(prob)
-    for v in prob.variables():  ##变量输出
+    for v in prob.variables():   # 变量输出
         print(v.name, "=", v.varValue)
 
 # endregion
